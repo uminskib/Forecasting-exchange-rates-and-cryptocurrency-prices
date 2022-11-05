@@ -40,7 +40,7 @@ The following tools were mainly used for the AR(F)IMA modelling part:
 * xts
 * forecast
 
-Rest of required packages at the beginning of the script AR(F)IMA_modelling.R 
+Rest of required packages at the beginning of the script AR(F)IMA_modelling.R. 
 
 The following tools were mainly used for the deep learning modelling and evaluation part:
 * python 3.9.11
@@ -51,7 +51,7 @@ The following tools were mainly used for the deep learning modelling and evaluat
 * tensorflow 2.6.0
 
 
-Rest of required packages in requirements.txt file 
+Rest of required packages in requirements.txt file. 
 
 ## Setup
 To run the project: 
