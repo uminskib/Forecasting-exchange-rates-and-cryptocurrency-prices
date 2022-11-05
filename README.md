@@ -8,25 +8,25 @@ The main objective of the analysis was to verify the quality of fiduciary and di
 
 The structure of the project is as follows:
 - First file: AR(F)IMA_modelling.R:
-1. Preparation data
-2. Analysis of long memory
-3. ARIMA and ARFIMA forecasting
+1. Preparation data.
+2. Analysis of long memory.
+3. ARIMA and ARFIMA forecasting.
 - Second file: RNN_LSTM_GRU-MinMaxScaler.ipynb:
-1. Environment and data
-2. Prepare machine learning pipeline functions - Simple RNN, LSTM, GRU
-3. Estimation models - Simple RNN, LSTM, GRU
-4. Evaluation - RMSE and MAPE
-5. Diebold-Mariano test
-6. Summary
+1. Environment and data.
+2. Prepare machine learning pipeline functions - Simple RNN, LSTM, GRU.
+3. Estimation models - Simple RNN, LSTM, GRU.
+4. Evaluation - RMSE and MAPE.
+5. Diebold-Mariano test.
+6. Summary.
 
 In the repository are:
-* Folder data - contain data from Stooq with cryptocurrency prices and exchange rates
+* Folder data - contain data from Stooq with cryptocurrency prices and exchange rates.
 * Folder Forecasting_result - contain selected best models and foreacsting result for each model for each currency.
 * AR(F)IMA_modelling.R - first file contains data preparation, analysis of long memory and ARIMA, ARFIMA modelling.
 * RNN_LSTM_GRU-MinMaxScaler.ipynb - second file with RNN, LSTM and GRU modelling.
 * dm_test.py - third file in which Diebold-Mariano test function is keeped.
  
-The whole project was carried out in June 2022 as research for a master's thesis entitled "Forecasting the rates of cryptocurrencies and classic currencies using long memory targeting methods."
+The whole project was carried out in June 2022 as research for a master's thesis entitled "Forecasting the rates of cryptocurrencies and classic currencies using long memory targeting methods".
 
 Note:
 Some deep learning models take quite a long time to train.
@@ -60,10 +60,10 @@ To run the project:
 3. For the second part (in Python) you have to install the required packages included in the requirements.txt file:
      * Launch any command-line interface (e.g. Anaconda Prompt).
      * If you have one, set up a custom virtual environment for the program in which the project will run.
-     * Set the destination path to the folder with the project: "cd 'your destination path to project'"
+     * Set the destination path to the folder with the project: "cd 'your destination path to project'".
      * Type "pip install -r requirements.txt".
-4. Start Jupyter Notebook or JupyterLab and launch RNN_LSTM_GRU-MinMaxScaler.ipynb
-5. Review ran code. Attention: Code with model estimation takes quite a while to execute 
+4. Start Jupyter Notebook or JupyterLab and launch RNN_LSTM_GRU-MinMaxScaler.ipynb.
+5. Review ran code. Attention: Code with model estimation takes quite a while to execute.
 
 R script developed and tested in Rstudio 4.03. While Python program developed and tested in Jupyter Lab 3.3.2. 
 
