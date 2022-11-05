@@ -65,5 +65,5 @@ To run the project:
 4. Start Jupyter Notebook or JupyterLab and launch RNN_LSTM_GRU-MinMaxScaler.ipynb.
 5. Review ran code. Attention: Code with model estimation takes quite a while to execute.
 
-R script developed and tested in Rstudio 4.03. While Python program developed and tested in Jupyter Lab 3.3.2. 
+R script developed and tested in Rstudio 4.03. While Python program developed and tested in JupyterLab 3.3.2. 
 
