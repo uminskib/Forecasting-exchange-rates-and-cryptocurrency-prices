@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The repository contains a time series forecasting project based on exchange rates and cryptocurrency prices that comes from the [Stooq](https://stooq.com/)
+The repository contains a time series forecasting project based on exchange rates and cryptocurrency prices that comes from the [Stooq](https://stooq.com/).
 The database contains closing prices of 5 cryptocurrencies and 5 conventional currencies from 2017-2021.
 The main objective of the analysis was to verify the quality of fiduciary and digital currency exchange rate prediction using econometric methods and neural networks. Attention was focused on techniques focused on long memory. It was also verified whether time series have this effect. 
 
